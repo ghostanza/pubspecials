@@ -1,8 +1,11 @@
 # thechris
 I frequently check the specials for my local pub ([Christopher's in Cambridge, MA](http://christopherscambridge.com.s122913.gridserver.com/)), so I figured I'd just make a little Node.js script so I can check it from the command line instead of going to the site, so I don't have to leave my terminal while working.
 
+***Dependencies: The only dependency is Node.js, so you'll need to have [Node](https://nodejs.org/en/) installed in order to run it***
+
 ## Basic Usage
-The script can be used as is, without any flags and it will output the current specials listed on the Christopher's website.
+
+The script can be used as is, without any flags, and it will output the current specials listed on the Christopher's website.
 The output first displays when the specials were last updated. After that it will include things like **Appetizers**, **Big Plates/Entrees**, **Soup Specials**, **Burger Special**, **Fish/Catch of The Day**, **Cocktail Specials**, and **Beer Specials**
 ```
 $ node thechris.js
