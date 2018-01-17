@@ -93,7 +93,7 @@ function findItemInfo(names, findIn){
             let findHeading = new RegExp('<h1>.*?<strong>(.*?)</', 'g')
             let heading = findHeading.exec(t[j]);
             if(heading.length > 1){
-              t[j] = `--------------------\n ${heading[1].toUpperCase()} \n--------------------\n${t[j]}`;
+              t[j] = `\n--------------------\n ${heading[1].toUpperCase()} \n--------------------\n${t[j]}`;
               t[j] = t[j].replace(/(<h1>.*?<\/h1>)/g, '');
             }
           }
@@ -104,7 +104,7 @@ function findItemInfo(names, findIn){
         t[j] = t[j].replace(/&#8217;/g, '\'');
         t[j] = t[j].replace(/(\d+\.\d+)/g, "\n- $1\n");
       }
-      m += t.join('\n\n');
+      m += t.join('\n');
     }
     final+=m;
   }
