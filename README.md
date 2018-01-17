@@ -1,5 +1,5 @@
 # thechris
-Stupid Node.js crawler to be able to use the command line to check the daily specials at my local pub (Christophers in Cambridge, MA).
+I frequently check the specials for my local pub ([Christopher's in Cambridge, MA](http://christopherscambridge.com.s122913.gridserver.com/)), so I figured I'd just make a little Node.js script so I can check it from the command line instead of going to the site, so I don't have to leave my terminal while working.
 
 ## Basic Usage
 The script can be used as is, without any flags and it will output the current specials listed on the Christopher's website.
